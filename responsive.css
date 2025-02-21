@@ -1,0 +1,116 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* Small devices (phones up to 576px) */
+@media (max-width: 576px) {
+    .hubBentoBody{
+    overflow-wrap: anywhere;
+    /* background-color: #f9f9f9; */
+    display: grid;
+    grid-template-areas: 
+    "card2 card2"
+    "card1 card3"
+    "card4 card4"
+    "card5 card5"
+    "card6 card6"
+    "card7 card8"
+    "card9 card9"
+    "card10 card10"
+    "card11 card11"
+    "card12 card12";
+    grid-template-rows: auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+    
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+@media (width >=577px) and (width <=768px) {
+    .hubBentoBody{
+    overflow-wrap: anywhere;
+    /* background-color: #f9f9f9; */
+    display: grid;
+    grid-template-areas: 
+    "card2 card2"
+    "card1 card3"
+    "card4 card5"
+    "card6 card6"
+    "card7 card8"
+    "card9 card9"
+    "card10 card10"
+    "card11 card11"
+    "card12 card12";
+    grid-template-rows: auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+    
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {
+    .hubBentoBody{
+    overflow-wrap: anywhere;
+    /* background-color: #f9f9f9; */
+    display: grid;
+    grid-template-areas: 
+    "card2 card2"
+    "card1 card3"
+    "card4 card5"
+    "card6 card6"
+    "card7 card7"
+    "card9 card8"
+    "card9 card10"
+    "card11 card11"
+    "card12 card12";
+    grid-template-rows: auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+    
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {
+    .hubBentoBody{
+    overflow-wrap: anywhere;
+    /* background-color: #f9f9f9; */
+    display: grid;
+    grid-template-areas: 
+    "card1 card2 card2 card3 card4"
+    "card5 card2 card2 card3 card4"
+    "card5 card6 card6 card6 card4"
+    "card5 card6 card6 card6 card7"
+    "card8 card6 card6 card6 card11"
+    "card9 card9 card10 card10 card11";
+    grid-template-rows: auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+    
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+@media (width >=1200px) {
+    .hubBentoBody{
+    /* background-color: #f9f9f9; */
+    display: grid;
+    grid-template-areas: 
+    "card1 card2 card2 card3 card4"
+    "card5 card2 card2 card3 card4"
+    "card5 card6 card6 card6 card4"
+    "card5 card6 card6 card6 card7"
+    "card8 card6 card6 card6 card11"
+    "card9 card9 card10 card10 card11";
+    grid-template-rows: auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+    
+}
